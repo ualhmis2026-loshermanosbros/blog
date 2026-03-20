@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'hmis-ior443-bmaxb5hnadczekfh.swedencentral-01.azurewebsites.net'
 languageCode = "es-es"
 title = "Los Hermanos Bros"
 theme = "PaperMod"

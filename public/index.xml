@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Los Hermanos Bros</title>
-    <link>http://localhost:1313/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Los Hermanos Bros</description>
     <generator>Hugo</generator>
     <language>es-es</language>
     <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Despliegue del Blog en GitHub Pages</title>
-      <link>http://localhost:1313/posts/github-pages/</link>
+      <link>//localhost:1313/posts/github-pages/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/github-pages/</guid>
+      <guid>//localhost:1313/posts/github-pages/</guid>
       <description>Cómo publicar tu sitio estático Hugo de forma gratuita.</description>
     </item>
     <item>
       <title>Guía Completa: Git, Hugo y Despliegue en GitHub Pages</title>
-      <link>http://localhost:1313/posts/comandos-git/</link>
+      <link>//localhost:1313/posts/comandos-git/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/comandos-git/</guid>
+      <guid>//localhost:1313/posts/comandos-git/</guid>
       <description>Documentación completa de nuestra metodología de desarrollo para HMIS.</description>
     </item>
     <item>
       <title>Creando nuestro blog con Hugo y GitHub Pages</title>
-      <link>http://localhost:1313/posts/primer-post/</link>
+      <link>//localhost:1313/posts/primer-post/</link>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/primer-post/</guid>
+      <guid>//localhost:1313/posts/primer-post/</guid>
       <description>&lt;h2 id=&#34;nuestro-primer-paso-en-hmis&#34;&gt;Nuestro primer paso en HMIS&lt;/h2&gt;
 &lt;p&gt;Hoy hemos comenzado la configuración de nuestro blog estático utilizando &lt;strong&gt;Hugo&lt;/strong&gt;. Al principio, entender la diferencia entre el contenido (Markdown) y el diseño (Layouts HTML) fue un reto, pero ya hemos logrado estructurar nuestro proyecto.&lt;/p&gt;
 &lt;h3 id=&#34;qué-hemos-aprendido-hoy&#34;&gt;¿Qué hemos aprendido hoy?&lt;/h3&gt;
@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>Contacta con Los Hermanos Bros</title>
-      <link>http://localhost:1313/contacto/</link>
+      <link>//localhost:1313/contacto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contacto/</guid>
+      <guid>//localhost:1313/contacto/</guid>
       <description>&lt;p&gt;¿Tienes alguna duda sobre nuestro proyecto? ¡Escríbenos!&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;Correo electrónico:&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;
@@ -51,9 +51,9 @@
     </item>
     <item>
       <title>Desarrollador - Javier Saiz Gomez</title>
-      <link>http://localhost:1313/equipo/ualjsg415/</link>
+      <link>//localhost:1313/equipo/ualjsg415/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/equipo/ualjsg415/</guid>
+      <guid>//localhost:1313/equipo/ualjsg415/</guid>
       <description>&lt;h2 id=&#34;hola-soy-javier-saiz&#34;&gt;Hola, soy Javier Saiz&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Rol:&lt;/strong&gt; Desarrollador&lt;/li&gt;
@@ -65,9 +65,9 @@
     </item>
     <item>
       <title>Encargado - Ivan Ortega</title>
-      <link>http://localhost:1313/equipo/imjincod/</link>
+      <link>//localhost:1313/equipo/imjincod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/equipo/imjincod/</guid>
+      <guid>//localhost:1313/equipo/imjincod/</guid>
       <description>&lt;h2 id=&#34;hola-soy-ivan-ortega&#34;&gt;Hola, soy Ivan Ortega&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Rol:&lt;/strong&gt; Encargado/Desarrollador&lt;/li&gt;
