@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Equipo on Los Hermanos Bros</title>
-    <link>http://localhost:1313/equipo/</link>
+    <link>//localhost:1313/equipo/</link>
     <description>Recent content in Equipo on Los Hermanos Bros</description>
     <generator>Hugo</generator>
     <language>es-es</language>
-    <atom:link href="http://localhost:1313/equipo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/equipo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Desarrollador - Javier Saiz Gomez</title>
-      <link>http://localhost:1313/equipo/ualjsg415/</link>
+      <link>//localhost:1313/equipo/ualjsg415/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/equipo/ualjsg415/</guid>
+      <guid>//localhost:1313/equipo/ualjsg415/</guid>
       <description>&lt;h2 id=&#34;hola-soy-javier-saiz&#34;&gt;Hola, soy Javier Saiz&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Rol:&lt;/strong&gt; Desarrollador&lt;/li&gt;
@@ -23,9 +23,9 @@
     </item>
     <item>
       <title>Encargado - Ivan Ortega</title>
-      <link>http://localhost:1313/equipo/imjincod/</link>
+      <link>//localhost:1313/equipo/imjincod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/equipo/imjincod/</guid>
+      <guid>//localhost:1313/equipo/imjincod/</guid>
       <description>&lt;h2 id=&#34;hola-soy-ivan-ortega&#34;&gt;Hola, soy Ivan Ortega&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Rol:&lt;/strong&gt; Encargado/Desarrollador&lt;/li&gt;
