@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Los Hermanos Bros</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Los Hermanos Bros</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Despliegue del Blog en GitHub Pages</title>
+      <link>http://localhost:1313/posts/github-pages/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/github-pages/</guid>
+      <description>Cómo publicar tu sitio estático Hugo de forma gratuita.</description>
+    </item>
+    <item>
+      <title>Guía Completa: Git, Hugo y Despliegue en GitHub Pages</title>
+      <link>http://localhost:1313/posts/comandos-git/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/comandos-git/</guid>
+      <description>Documentación completa de nuestra metodología de desarrollo para HMIS.</description>
+    </item>
+    <item>
+      <title>Creando nuestro blog con Hugo y GitHub Pages</title>
+      <link>http://localhost:1313/posts/primer-post/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/primer-post/</guid>
+      <description>&lt;h2 id=&#34;nuestro-primer-paso-en-hmis&#34;&gt;Nuestro primer paso en HMIS&lt;/h2&gt;
+&lt;p&gt;Hoy hemos comenzado la configuración de nuestro blog estático utilizando &lt;strong&gt;Hugo&lt;/strong&gt;. Al principio, entender la diferencia entre el contenido (Markdown) y el diseño (Layouts HTML) fue un reto, pero ya hemos logrado estructurar nuestro proyecto.&lt;/p&gt;
+&lt;h3 id=&#34;qué-hemos-aprendido-hoy&#34;&gt;¿Qué hemos aprendido hoy?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Cómo inicializar un proyecto en Hugo.&lt;/li&gt;
+&lt;li&gt;La importancia de la carpeta &lt;code&gt;content&lt;/code&gt; para nuestros archivos Markdown.&lt;/li&gt;
+&lt;li&gt;Cómo generar el sitio final para subirlo a nuestro repositorio.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>
