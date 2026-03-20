@@ -1,3 +1,37 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Project'
+languageCode = "es-es"
+title = "Los Hermanos Bros"
+theme = "PaperMod"
+pluralizeListTitles = false
+
+# --- SECCIÓN DE PARÁMETROS DEL TEMA ---
+[params]
+    defaultTheme = "auto"
+    ShowReadingTime = true
+    ShowShareButtons = true
+
+    # ESTO ES LO QUE ARREGLA TU HOME
+    [params.profileMode]
+        enabled = true
+        title = "Los Hermanos Bros"
+        subtitle = "Documentando nuestro aprendizaje en desarrollo web estático."
+        imageUrl = "https://www.nintendo.com/eu/media/images/10_share_images/portals_3/2x1_SuperMarioHub.jpg" # Puedes cambiar esto por vuestro logo
+        displayFullContent = true
+
+# --- SECCIÓN DEL MENÚ ---
+[menu]
+    [[menu.main]]
+        identifier = "equipo"
+        name = "Nuestro Equipo"
+        url = "/equipo/"
+        weight = 10
+    [[menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/posts/"
+        weight = 15
+    [[menu.main]]
+        identifier = "contacto"
+        name = "Contacto"
+        url = "/contacto/"
+        weight = 20
