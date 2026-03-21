@@ -14,6 +14,6 @@ layout: "single"
 * **GitHub:** [ualjsg415](https://github.com/ualjsg415)
 * **Web Personal:** [ualjsg415.github.io](https://ualjsg415.github.io/)
 
-### Sobre mí y mis aficiones
+### Sobre mí 
 
-Me apasiona la tecnología, la automatización de procesos y el desarrollo web. En mi tiempo libre me gusta... *(rellena con tus aficiones para tu práctica)*.
+Soy un estudiante de informatica en la universidad de Almeria en mi 3er año. Me gustan bastante los videojuegos. En este proyecto soy un desarrollador que ha estado ayudando en la creacion de los blogs.
