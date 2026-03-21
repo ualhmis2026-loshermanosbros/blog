@@ -1,10 +1,11 @@
-name: Deploy Hugo site to Pages
+name: Deploy Hugo to GitHub Pages
 
 on:
   push:
-    branches: ["configuracion-azure"] # Tu rama
+    branches: ["configuracion-azure"]
   workflow_dispatch:
 
+# Permisos estrictamente necesarios para GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -14,34 +15,31 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-defaults:
-  run:
-    shell: bash
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: latest
     steps:
-      - name: Checkout
+      - name: Checkout del código
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: recursive # Vital para el tema PaperMod
           fetch-depth: 0
-      - name: Setup Pages
+
+      - name: Configurar GitHub Pages
         id: pages
         uses: actions/configure-pages@v4
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.124.1/hugo_extended_0.124.1_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-      - name: Build with Hugo
-        env:
-          HUGO_ENVIRONMENT: production
-        # Esto adapta los links para que funcionen en GitHub Pages automáticamente
+
+      - name: Instalar Hugo (Método Seguro)
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Construir la web con Hugo
+        # Usamos el baseURL dinámico para que GitHub Pages ponga la URL correcta
         run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Upload artifact
+
+      - name: Subir artefacto
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
@@ -53,6 +51,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Desplegar en GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
